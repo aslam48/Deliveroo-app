@@ -12,15 +12,15 @@ export default defineType({
       validation: (Rule) => Rule.required()
     },
     {
-      name:"name",
+      name:"short_description",
       type:"string",
-      title:"Restaurant name",
+      title:"short description",
       validation: (Rule) => Rule.max(200)
     },
     {
       name: "image",
-      type:"number",
-      title:"latitude of the Resturant"
+      type:"image",
+      title:"image of the Resturant"
     },
     {
       name: "lat",
@@ -38,6 +38,7 @@ export default defineType({
       title:"latitude of the Resturant",
       validation: (Rule) => Rule.required()
     },
+    
     {
       name: "rating",
       type:"number",
