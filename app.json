@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "go-travel-app",
-    "slug": "go-travel-app",
+    "name": "Deliveroo App",
+    "slug": "deliveroo-app",
+    "description":"this is an app that let you order for your food",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
